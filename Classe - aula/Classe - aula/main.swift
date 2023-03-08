@@ -31,37 +31,116 @@ class Automovel {
     
 }
 
-class Bike{
+class Bike {
     var temPneu: Bool = true
     var cor: String = "Azul"
     var temBuzina: Bool = false
     var quantidadePortaGarrafa: Int = 1
+    var possuiSeguro: Bool = false
     
-    func andar(){
+    func andar() {
         print("Não é possível andar, pois está quebrada")
     }
     
-    func estacionar(){
+    func estacionar() {
         print("Sempre estacione em local seguro!")
     }
 }
 
-class Elefante{
+class Elefante {
     var peso: Double = 1000.0
     var cor: String = "Marrom"
     var idade: Int = 50
+    var continente: String = "Africa"
     
-    func local(){
-        print("O elefante mora na savana.")
+    func local() {
+        print("O elefante mora na savana, no meio da \(continente).")
     }
     
-    func comer(){
+    func comer() {
         print("O elefante come muito")
+    }
+    
+    func idoso() {
+        print("O elefante é idoso, pois tem \(idade) de idade.")
     }
     
 }
 
-class noteBook{
+// Dar vida ao objeto -> quando geramos a instancia -> ()
+var meuCarro: Automovel = Automovel()
+
+
+// Construtores
+// Criamos um construtor com a palavra reservada init e com isso indicamos TODOS OS VALORES DAS VARIAVEIS OU CONSTANTES QUE NÃO SE INICIAM COM VALOR
+
+class Pessoa {
+    
+    var nome: String
+    var altura: Double
+    var peso: Double
+    var tamanhoCalcado: Int
+    
+    
+    init(nome: String, altura: Double, peso: Double, tamanhoCalcado: Int) {
+        self.nome = nome
+        self.altura = altura
+        self.peso = peso
+        self.tamanhoCalcado = tamanhoCalcado
+    }
+}
+
+var caio: Pessoa = Pessoa(nome: "Caio", altura: 1.84, peso: 84, tamanhoCalcado: 44)
+var matheus: Pessoa = Pessoa(nome: "Matheus", altura: 1.65, peso: 69, tamanhoCalcado: 40)
+//print(caio.nome)
+//print(caio.altura)
+//print(caio.peso)
+
+//  Referencia uma das principais caracteristicas de uma classe
+
+print(caio.nome)
+print(matheus.nome)
+
+caio.nome = "Caio Fabrini"
+matheus.nome = "Matheus Souza"
+
+print(caio.nome)
+print(matheus.nome)
+
+// caio é igual a matheus
+caio = matheus
+
+print(caio.nome)
+print(matheus.nome)
+
+
+caio.nome = "Alberto"
+
+print(caio.nome)
+print(matheus.nome)
+
+matheus.nome = "Jorge"
+
+print(caio.nome)
+print(matheus.nome)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class NoteBook{
     var cor: String = "Preto"
     var memoria: Int = 40
     var bateria: Bool = true
@@ -74,10 +153,12 @@ class noteBook{
         print ("O notebook está sem memoria")
     }
 }
-var meuNotebook: noteBook = noteBook()
+
+var meuNotebook: NoteBook = NoteBook()
 meuNotebook.liga()
 meuNotebook.capacidade()
 print (meuNotebook.bateria)
+
 
 class Bicicleta {
     var pneu: Bool = true
@@ -103,7 +184,8 @@ minhaBike.pedal()
 print(minhaBike.corrente)
 print(minhaBike.quadro)
 
-class sofa{
+
+class Sofa{
     var tecido: String = "Linho"
     var modelo: String = "Grande"
     var almofadas: Int = 5
@@ -122,7 +204,7 @@ class sofa{
         print("O sofa possui lugares a vontade? \(temLugar)")
     }
 }
-var meuSofa: sofa = sofa()
+var meuSofa: Sofa = Sofa()
 print(meuSofa.tecido)
 print(meuSofa.modelo)
 meuSofa.lavar()
