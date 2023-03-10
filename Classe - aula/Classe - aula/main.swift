@@ -72,7 +72,8 @@ var meuCarro: Automovel = Automovel()
 
 
 // Construtores
-// Criamos um construtor com a palavra reservada init e com isso indicamos TODOS OS VALORES DAS VARIAVEIS OU CONSTANTES QUE NÃO SE INICIAM COM VALOR
+// Criamos um construtor com a palavra reservada init e com isso indicamos TODOS OS VALORES DAS VARIAVEIS OU CONSTANTES QUE NÃO SE INICIAM COM VALOR.
+// Construtor é usado quando a variavel não tem o seu valor.
 
 class Pessoa {
     
