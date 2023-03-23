@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DesafioTextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRX-sS-4vj">
+                                <rect key="frame" x="20" y="69" width="353" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kin-Ue-aaP">
+                                <rect key="frame" x="20" y="133" width="353" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oJ0-B8-5cD">
+                                <rect key="frame" x="20" y="197" width="353" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iT6-Zn-XEh">
+                                <rect key="frame" x="20" y="261" width="353" height="35"/>
+                                <color key="backgroundColor" red="0.26666668059999998" green="0.59607845540000004" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Cadastrar">
+                                    <color key="titleColor" red="0.89411771299999998" green="0.89411771299999998" blue="0.89411771299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jyg-yc-mTL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eRX-sS-4vj" secondAttribute="trailing" constant="20" id="65i-Sx-rcu"/>
+                            <constraint firstItem="eRX-sS-4vj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BIR-ao-KEB"/>
+                            <constraint firstItem="Kin-Ue-aaP" firstAttribute="top" secondItem="eRX-sS-4vj" secondAttribute="bottom" constant="30" id="Bep-V1-UNH"/>
+                            <constraint firstItem="iT6-Zn-XEh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="C2t-hT-5Rh"/>
+                            <constraint firstItem="Kin-Ue-aaP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E4R-Ef-pZx"/>
+                            <constraint firstItem="Kin-Ue-aaP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IoC-rc-D1M"/>
+                            <constraint firstItem="iT6-Zn-XEh" firstAttribute="top" secondItem="oJ0-B8-5cD" secondAttribute="bottom" constant="30" id="Nul-i4-IA8"/>
+                            <constraint firstItem="oJ0-B8-5cD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TYa-uE-Chh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kin-Ue-aaP" secondAttribute="trailing" constant="20" id="e1g-oP-MWk"/>
+                            <constraint firstItem="oJ0-B8-5cD" firstAttribute="top" secondItem="Kin-Ue-aaP" secondAttribute="bottom" constant="30" id="hcb-fo-j9m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iT6-Zn-XEh" secondAttribute="trailing" constant="20" id="k5q-6G-nSg"/>
+                            <constraint firstItem="eRX-sS-4vj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="m8a-kC-tSI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kin-Ue-aaP" secondAttribute="trailing" constant="20" id="nG6-EQ-ENf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oJ0-B8-5cD" secondAttribute="trailing" constant="20" id="x7e-w5-ulz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cadastrarButton" destination="iT6-Zn-XEh" id="oEm-Qi-Blu"/>
+                        <outlet property="emailTextField" destination="Kin-Ue-aaP" id="Fxj-PN-j0O"/>
+                        <outlet property="nomeTextField" destination="eRX-sS-4vj" id="KPa-IK-g5M"/>
+                        <outlet property="passwordTextField" destination="oJ0-B8-5cD" id="d6f-tN-Guy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
