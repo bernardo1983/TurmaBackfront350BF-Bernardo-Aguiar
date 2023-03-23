@@ -28,11 +28,11 @@ class ViewController: UIViewController {
         emailTextField.placeholder = "E-mail"
         passwordTextField.placeholder = "Senha"
         cadastrarButton.isEnabled = false
-        nomeTextField.layer.borderColor = UIColor.red.cgColor
+        nomeTextField.layer.borderColor = UIColor.lightGray.cgColor
         nomeTextField.layer.borderWidth = 2
-        emailTextField.layer.borderColor = UIColor.red.cgColor
+        emailTextField.layer.borderColor = UIColor.lightGray.cgColor
         emailTextField.layer.borderWidth = 2
-        passwordTextField.layer.borderColor = UIColor.red.cgColor
+        passwordTextField.layer.borderColor = UIColor.lightGray.cgColor
         passwordTextField.layer.borderWidth = 2
     }
 
