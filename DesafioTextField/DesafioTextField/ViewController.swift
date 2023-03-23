@@ -53,11 +53,12 @@ extension ViewController: UITextFieldDelegate {
         if textField.hasText == false {
             textField.layer.borderColor = UIColor.red.cgColor
             textField.layer.borderWidth = 2
+            cadastrarButton.isEnabled = false 
+        }
+        else if nomeTextField.hasText == true && emailTextField.hasText == true && passwordTextField.hasText == true {
+            cadastrarButton.isEnabled = true
         }else {
             textField.layer.borderWidth = 0
-        }
-        if nomeTextField.hasText && emailTextField.hasText && passwordTextField.hasText{
-            cadastrarButton.isEnabled = true
         }
             
     }
@@ -70,7 +71,7 @@ extension ViewController: UITextFieldDelegate {
         } else {
             textField.resignFirstResponder()
         }
-        print(#function)
+       
         return  true
     }
 }
