@@ -61,6 +61,11 @@ extension ViewController: UITextFieldDelegate {
         }
         else if nameTextField.hasText == true && adressTextField.hasText == true && passwordTextField.hasText == true && passwordconfirmTextField.hasText == true && passwordTextField.text == passwordconfirmTextField.text {
             buttonTextField.isEnabled = true
+            passwordTextField.layer.borderColor = UIColor.lightGray.cgColor
+            passwordTextField.layer.borderWidth = 2
+            passwordconfirmTextField.layer.borderColor = UIColor.lightGray.cgColor
+            passwordconfirmTextField.layer.borderWidth = 2
+            
         } else {
             textField.layer.borderWidth = 0
             passwordTextField.layer.borderColor = UIColor.red.cgColor
