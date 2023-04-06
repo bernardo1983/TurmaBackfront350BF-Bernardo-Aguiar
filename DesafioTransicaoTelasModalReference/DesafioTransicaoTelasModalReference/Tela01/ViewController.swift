@@ -17,8 +17,24 @@ class ViewController: UIViewController {
 
     
     @IBAction func tappedGoScreen02Button(_ sender: UIButton) {
-        performSegue(withIdentifier: "Tela02ViewController", sender: nil)
+        let vc = UIStoryboard(name: "Tela02ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela02ViewController") as? Tela02ViewController
+        present(vc ?? UIViewController(), animated: true)
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

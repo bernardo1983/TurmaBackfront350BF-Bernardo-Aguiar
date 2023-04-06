@@ -63,8 +63,6 @@
 				CBD5548229DF07AC00A88F80 /* Tela01 */,
 				CBD5547D29DF077400A88F80 /* Tela02 */,
 				CBD5546929DF076200A88F80 /* AppDelegate.swift */,
-				CBD5546D29DF076200A88F80 /* ViewController.swift */,
-				CBBC083E29DF0CF40077A262 /* Main.storyboard */,
 				CBD5546B29DF076200A88F80 /* SceneDelegate.swift */,
 				CBD5547229DF076300A88F80 /* Assets.xcassets */,
 				CBD5547429DF076300A88F80 /* LaunchScreen.storyboard */,
@@ -85,6 +83,8 @@
 		CBD5548229DF07AC00A88F80 /* Tela01 */ = {
 			isa = PBXGroup;
 			children = (
+				CBBC083E29DF0CF40077A262 /* Main.storyboard */,
+				CBD5546D29DF076200A88F80 /* ViewController.swift */,
 			);
 			path = Tela01;
 			sourceTree = "<group>";
