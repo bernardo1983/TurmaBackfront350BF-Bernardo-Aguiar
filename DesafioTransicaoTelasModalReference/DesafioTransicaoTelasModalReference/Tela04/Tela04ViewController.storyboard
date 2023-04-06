@@ -28,10 +28,25 @@
                                     <action selector="tappedGoScreen05Button:" destination="z58-1G-HUq" eventType="touchUpInside" id="JL1-9b-2Ax"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3b-iG-Rs1">
+                                <rect key="frame" x="162" y="497.66666666666669" width="69" height="35.333333333333314"/>
+                                <color key="backgroundColor" red="0.26666668059999998" green="0.59607845540000004" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Voltar">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tappedVoltarButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5up-xb-asK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="z3b-iG-Rs1" secondAttribute="trailing" constant="162" id="BhC-KE-BrG"/>
+                            <constraint firstItem="z3b-iG-Rs1" firstAttribute="top" secondItem="Kiy-xT-dzr" secondAttribute="bottom" constant="54.329999999999998" id="ELS-S2-vQe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="z3b-iG-Rs1" secondAttribute="bottom" constant="285" id="Ed5-Cw-cse"/>
+                            <constraint firstItem="z3b-iG-Rs1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="162" id="JoA-pD-UHR"/>
                             <constraint firstItem="Kiy-xT-dzr" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="VQA-Cw-qSb"/>
                             <constraint firstItem="Kiy-xT-dzr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yyM-bw-ffi"/>
                         </constraints>

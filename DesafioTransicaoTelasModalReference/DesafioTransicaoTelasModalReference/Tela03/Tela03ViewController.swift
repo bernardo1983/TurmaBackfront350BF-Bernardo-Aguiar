@@ -22,4 +22,7 @@ class Tela03ViewController: UIViewController {
     }
     
 
+    @IBAction func tappedVoltarButton(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
 }

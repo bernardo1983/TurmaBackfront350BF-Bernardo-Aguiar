@@ -27,8 +27,9 @@
                                     <action selector="tappedGoScreen02Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GdL-0Z-CPR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tela Inicial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ue-a4-ym2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tela Inicial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ue-a4-ym2">
                                 <rect key="frame" x="143" y="322" width="106" height="28.666666666666686"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,12 +38,8 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="5Ue-a4-ym2" secondAttribute="trailing" constant="144" id="6ES-pN-s2A"/>
-                            <constraint firstItem="n6n-0r-rVX" firstAttribute="top" secondItem="5Ue-a4-ym2" secondAttribute="bottom" constant="57.670000000000002" id="Hnt-Yf-q2Q"/>
-                            <constraint firstItem="n6n-0r-rVX" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="P6D-on-MeU"/>
-                            <constraint firstItem="5Ue-a4-ym2" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="219" id="nlu-eR-scl"/>
-                            <constraint firstItem="n6n-0r-rVX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="sDv-6I-9AW"/>
-                            <constraint firstItem="5Ue-a4-ym2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="143" id="z7i-Uz-bAR"/>
+                            <constraint firstItem="n6n-0r-rVX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="JSI-Aa-tEh"/>
+                            <constraint firstItem="n6n-0r-rVX" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Jl0-Yd-g5Y"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oxQ-Qc-WR3"/>

@@ -22,4 +22,7 @@ class Tela04ViewController: UIViewController {
         let vc = UIStoryboard(name: "Tela05ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela05ViewController") as? Tela05ViewController
         navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
     }
+    @IBAction func tappedVoltarButton(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
 }

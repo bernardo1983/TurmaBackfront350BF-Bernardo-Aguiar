@@ -27,12 +27,28 @@
                                     <action selector="tappedBackButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Kfn-te-Yqu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iX0-Qu-2YV">
+                                <rect key="frame" x="162" y="501.66666666666669" width="69" height="35.333333333333314"/>
+                                <color key="backgroundColor" red="0.26666668059999998" green="0.59607845540000004" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.26666668059999998" green="0.59607845540000004" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Voltar">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tappedVoltarButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GrF-Lx-kfG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="OI6-Cy-OUY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="3BN-pR-lYg"/>
                             <constraint firstItem="OI6-Cy-OUY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="BlL-MM-9cg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="iX0-Qu-2YV" secondAttribute="trailing" constant="162" id="Ig8-oq-dlL"/>
+                            <constraint firstItem="iX0-Qu-2YV" firstAttribute="top" secondItem="OI6-Cy-OUY" secondAttribute="bottom" constant="58.329999999999998" id="xPh-I6-uxE"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="iX0-Qu-2YV" secondAttribute="bottom" constant="281" id="xcw-ft-JVB"/>
+                            <constraint firstItem="iX0-Qu-2YV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="162" id="xrz-NQ-8Ao"/>
                         </constraints>
                     </view>
                 </viewController>
