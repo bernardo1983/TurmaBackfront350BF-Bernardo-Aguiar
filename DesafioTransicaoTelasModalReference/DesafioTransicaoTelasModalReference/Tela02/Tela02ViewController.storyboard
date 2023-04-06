@@ -39,18 +39,30 @@
                                     <action selector="tappedVoltarButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GrF-Lx-kfG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fg-5Q-SMA">
+                                <rect key="frame" x="175" y="183" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="OI6-Cy-OUY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="3BN-pR-lYg"/>
-                            <constraint firstItem="OI6-Cy-OUY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="BlL-MM-9cg"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="iX0-Qu-2YV" secondAttribute="trailing" constant="162" id="Ig8-oq-dlL"/>
-                            <constraint firstItem="iX0-Qu-2YV" firstAttribute="top" secondItem="OI6-Cy-OUY" secondAttribute="bottom" constant="58.329999999999998" id="xPh-I6-uxE"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="iX0-Qu-2YV" secondAttribute="bottom" constant="281" id="xcw-ft-JVB"/>
-                            <constraint firstItem="iX0-Qu-2YV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="162" id="xrz-NQ-8Ao"/>
+                            <constraint firstItem="6Fg-5Q-SMA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="124" id="I6A-x5-fgB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6Fg-5Q-SMA" secondAttribute="trailing" constant="176" id="PuS-Si-f3E"/>
+                            <constraint firstItem="iX0-Qu-2YV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="162" id="Q83-jg-lk7"/>
+                            <constraint firstItem="OI6-Cy-OUY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="UNN-bF-DAQ"/>
+                            <constraint firstItem="iX0-Qu-2YV" firstAttribute="top" secondItem="OI6-Cy-OUY" secondAttribute="bottom" constant="58" id="WdK-Ad-G8r"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="iX0-Qu-2YV" secondAttribute="bottom" constant="281" id="XBk-gV-19s"/>
+                            <constraint firstItem="OI6-Cy-OUY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="dDb-Xp-LC6"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="iX0-Qu-2YV" secondAttribute="trailing" constant="162" id="eIx-FQ-1dL"/>
+                            <constraint firstItem="6Fg-5Q-SMA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="175" id="m2G-TI-4DN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="6Fg-5Q-SMA" id="mbv-bi-iZd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

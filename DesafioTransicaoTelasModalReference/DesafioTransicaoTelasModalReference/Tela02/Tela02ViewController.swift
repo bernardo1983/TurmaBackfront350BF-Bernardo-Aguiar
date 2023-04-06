@@ -8,9 +8,13 @@
 import UIKit
 
 class Tela02ViewController: UIViewController {
+    var name: String = ""
     
+    @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text = name 
+        
         
         
         
@@ -23,6 +27,7 @@ class Tela02ViewController: UIViewController {
     @IBAction func tappedBackButton(_ sender: UIButton) {
         let vc: Tela03ViewController? = UIStoryboard(name: "Tela03ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela03ViewController") as? Tela03ViewController
         navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
+        
     }
     
     
