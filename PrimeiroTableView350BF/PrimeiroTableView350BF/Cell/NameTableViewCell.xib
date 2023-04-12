@@ -9,15 +9,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NameTableViewCell" customModule="PrimeiroTableView350BF" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="123" id="KGk-i7-Jjw" customClass="NameTableViewCell" customModule="PrimeiroTableView350BF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="123"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <rect key="frame" x="0.0" y="0.0" width="364" height="123"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfr-VH-3pO">
-                        <rect key="frame" x="16" y="11.666666666666664" width="42" height="21"/>
+                        <rect key="frame" x="16" y="51" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSz-ZQ-taK">
+                        <rect key="frame" x="20" y="16" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -26,13 +32,17 @@
                 <constraints>
                     <constraint firstItem="Gfr-VH-3pO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="626-Bl-fWl"/>
                     <constraint firstItem="Gfr-VH-3pO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="V8E-ou-Ave"/>
+                    <constraint firstItem="hSz-ZQ-taK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="gbg-0u-qAf"/>
+                    <constraint firstAttribute="trailing" secondItem="hSz-ZQ-taK" secondAttribute="trailing" constant="302" id="mCE-JO-x8k"/>
+                    <constraint firstItem="hSz-ZQ-taK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="ySV-sx-SAh"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="nameLabel" destination="Gfr-VH-3pO" id="mQh-hD-gnq"/>
+                <outlet property="surNameLabel" destination="hSz-ZQ-taK" id="j4V-8z-d0x"/>
             </connections>
-            <point key="canvasLocation" x="131" y="-11"/>
+            <point key="canvasLocation" x="97.70992366412213" y="52.464788732394368"/>
         </tableViewCell>
     </objects>
 </document>
