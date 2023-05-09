@@ -22,6 +22,6 @@ class CustomTableViewCell: UITableViewCell {
         nameLabel.font = UIFont.systemFont(ofSize: 25.0, weight: .semibold)
     }
     func setupCell (cadastro: Cadastro) {
-        nameLabel.text = cadastro.Name
+        nameLabel.text = cadastro.name
     }
 }

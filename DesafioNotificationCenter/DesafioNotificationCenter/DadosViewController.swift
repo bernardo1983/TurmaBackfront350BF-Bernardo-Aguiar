@@ -26,7 +26,7 @@ class DadosViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(updateName), name: .name, object: nil)
     }
     @objc func updateName(_ notification: NSNotification) {
-        data.append(Cadastro(Name: notification.object as? String ?? ""))
+        data.append(Cadastro(name: notification.object as? String ?? ""))
         tableView.reloadData()
         
     }
