@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBD7D7202A0A7F3D004469A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D71F2A0A7F3D004469A9 /* AppDelegate.swift */; };
+		CBD7D7222A0A7F3D004469A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7212A0A7F3D004469A9 /* SceneDelegate.swift */; };
+		CBD7D7242A0A7F3D004469A9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7232A0A7F3D004469A9 /* TabBarController.swift */; };
+		CBD7D7272A0A7F3D004469A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7D7252A0A7F3D004469A9 /* Main.storyboard */; };
+		CBD7D7292A0A7F3F004469A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD7D7282A0A7F3F004469A9 /* Assets.xcassets */; };
+		CBD7D72C2A0A7F3F004469A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7D72A2A0A7F3F004469A9 /* LaunchScreen.storyboard */; };
+		CBD7D7342A0A82C2004469A9 /* DadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7332A0A82C2004469A9 /* DadosViewController.swift */; };
+		CBD7D7372A0A8677004469A9 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7362A0A8677004469A9 /* CadastroViewController.swift */; };
+		CBD7D73B2A0A88F5004469A9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7392A0A88F5004469A9 /* CustomTableViewCell.swift */; };
+		CBD7D73C2A0A88F5004469A9 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD7D73A2A0A88F5004469A9 /* CustomTableViewCell.xib */; };
+		CBD7D73F2A0A8A57004469A9 /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D73E2A0A8A57004469A9 /* Cadastro.swift */; };
+		CBD7D7412A0A8DD5004469A9 /* NSNotificatioName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7402A0A8DD5004469A9 /* NSNotificatioName+Extension.swift */; };
+		CBD7D7442A0A935E004469A9 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7D7432A0A935E004469A9 /* AlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBD7D71C2A0A7F3D004469A9 /* DesafioNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD7D71F2A0A7F3D004469A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBD7D7212A0A7F3D004469A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBD7D7232A0A7F3D004469A9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CBD7D7262A0A7F3D004469A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD7D7282A0A7F3F004469A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD7D72B2A0A7F3F004469A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD7D72D2A0A7F3F004469A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD7D7332A0A82C2004469A9 /* DadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosViewController.swift; sourceTree = "<group>"; };
+		CBD7D7362A0A8677004469A9 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		CBD7D7392A0A88F5004469A9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CBD7D73A2A0A88F5004469A9 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		CBD7D73E2A0A8A57004469A9 /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		CBD7D7402A0A8DD5004469A9 /* NSNotificatioName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotificatioName+Extension.swift"; sourceTree = "<group>"; };
+		CBD7D7432A0A935E004469A9 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD7D7192A0A7F3D004469A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD7D7132A0A7F3D004469A9 = {
+			isa = PBXGroup;
+			children = (
+				CBD7D71E2A0A7F3D004469A9 /* DesafioNotificationCenter */,
+				CBD7D71D2A0A7F3D004469A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD7D71D2A0A7F3D004469A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D71C2A0A7F3D004469A9 /* DesafioNotificationCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD7D71E2A0A7F3D004469A9 /* DesafioNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D7422A0A9300004469A9 /* AlertController */,
+				CBD7D73D2A0A8A31004469A9 /* Model */,
+				CBD7D7382A0A88CD004469A9 /* Cell */,
+				CBD7D7352A0A82EB004469A9 /* TabBar */,
+				CBD7D71F2A0A7F3D004469A9 /* AppDelegate.swift */,
+				CBD7D7212A0A7F3D004469A9 /* SceneDelegate.swift */,
+				CBD7D7282A0A7F3F004469A9 /* Assets.xcassets */,
+				CBD7D72A2A0A7F3F004469A9 /* LaunchScreen.storyboard */,
+				CBD7D72D2A0A7F3F004469A9 /* Info.plist */,
+				CBD7D7332A0A82C2004469A9 /* DadosViewController.swift */,
+				CBD7D7362A0A8677004469A9 /* CadastroViewController.swift */,
+				CBD7D7402A0A8DD5004469A9 /* NSNotificatioName+Extension.swift */,
+			);
+			path = DesafioNotificationCenter;
+			sourceTree = "<group>";
+		};
+		CBD7D7352A0A82EB004469A9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D7232A0A7F3D004469A9 /* TabBarController.swift */,
+				CBD7D7252A0A7F3D004469A9 /* Main.storyboard */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CBD7D7382A0A88CD004469A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D7392A0A88F5004469A9 /* CustomTableViewCell.swift */,
+				CBD7D73A2A0A88F5004469A9 /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CBD7D73D2A0A8A31004469A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D73E2A0A8A57004469A9 /* Cadastro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBD7D7422A0A9300004469A9 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D7432A0A935E004469A9 /* AlertController.swift */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD7D71B2A0A7F3D004469A9 /* DesafioNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD7D7302A0A7F3F004469A9 /* Build configuration list for PBXNativeTarget "DesafioNotificationCenter" */;
+			buildPhases = (
+				CBD7D7182A0A7F3D004469A9 /* Sources */,
+				CBD7D7192A0A7F3D004469A9 /* Frameworks */,
+				CBD7D71A2A0A7F3D004469A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioNotificationCenter;
+			productName = DesafioNotificationCenter;
+			productReference = CBD7D71C2A0A7F3D004469A9 /* DesafioNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD7D7142A0A7F3D004469A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CBD7D71B2A0A7F3D004469A9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CBD7D7172A0A7F3D004469A9 /* Build configuration list for PBXProject "DesafioNotificationCenter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD7D7132A0A7F3D004469A9;
+			productRefGroup = CBD7D71D2A0A7F3D004469A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD7D71B2A0A7F3D004469A9 /* DesafioNotificationCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD7D71A2A0A7F3D004469A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD7D72C2A0A7F3F004469A9 /* LaunchScreen.storyboard in Resources */,
+				CBD7D7292A0A7F3F004469A9 /* Assets.xcassets in Resources */,
+				CBD7D73C2A0A88F5004469A9 /* CustomTableViewCell.xib in Resources */,
+				CBD7D7272A0A7F3D004469A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD7D7182A0A7F3D004469A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD7D73F2A0A8A57004469A9 /* Cadastro.swift in Sources */,
+				CBD7D7442A0A935E004469A9 /* AlertController.swift in Sources */,
+				CBD7D73B2A0A88F5004469A9 /* CustomTableViewCell.swift in Sources */,
+				CBD7D7242A0A7F3D004469A9 /* TabBarController.swift in Sources */,
+				CBD7D7202A0A7F3D004469A9 /* AppDelegate.swift in Sources */,
+				CBD7D7342A0A82C2004469A9 /* DadosViewController.swift in Sources */,
+				CBD7D7412A0A8DD5004469A9 /* NSNotificatioName+Extension.swift in Sources */,
+				CBD7D7372A0A8677004469A9 /* CadastroViewController.swift in Sources */,
+				CBD7D7222A0A7F3D004469A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBD7D7252A0A7F3D004469A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD7D7262A0A7F3D004469A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD7D72A2A0A7F3F004469A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD7D72B2A0A7F3F004469A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD7D72E2A0A7F3F004469A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBD7D72F2A0A7F3F004469A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD7D7312A0A7F3F004469A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioNotificationCenter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = backfront.DesafioNotificationCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD7D7322A0A7F3F004469A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioNotificationCenter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = backfront.DesafioNotificationCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD7D7172A0A7F3D004469A9 /* Build configuration list for PBXProject "DesafioNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD7D72E2A0A7F3F004469A9 /* Debug */,
+				CBD7D72F2A0A7F3F004469A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD7D7302A0A7F3F004469A9 /* Build configuration list for PBXNativeTarget "DesafioNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD7D7312A0A7F3F004469A9 /* Debug */,
+				CBD7D7322A0A7F3F004469A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD7D7142A0A7F3D004469A9 /* Project object */;
+}
