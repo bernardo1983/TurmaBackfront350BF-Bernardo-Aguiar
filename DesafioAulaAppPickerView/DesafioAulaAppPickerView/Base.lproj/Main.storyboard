@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uiC-a1-eX2">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="02E-F7-6Lo">
+            <objects>
+                <viewController id="V3b-r5-u4h" customClass="Tela02VC" customModule="DesafioAulaAppPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RCx-Pt-aoy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rfk-s1-ogX"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="phone" catalog="system" id="d3r-M6-urr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfm-8O-z6R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-337" y="189"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="2IA-Yr-esK">
+            <objects>
+                <viewController id="qag-WA-Xqs" customClass="Tela03VC" customModule="DesafioAulaAppPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9rQ-h7-BWa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EmF-ie-BcC"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="trash" catalog="system" id="uAg-vb-PAB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnL-va-sXy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="573" y="-154"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="xUv-8d-7VD">
+            <objects>
+                <viewController id="egd-Hk-0Hr" customClass="Tela01VC" customModule="DesafioAulaAppPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qQM-9L-fnM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9v6-b9-yN1">
+                                <rect key="frame" x="129" y="94.999999999999986" width="135" height="133.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="NEE-Kq-AxP"/>
+                                    <constraint firstAttribute="height" constant="135" id="qpi-o0-IQD"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkx-DV-57A">
+                                <rect key="frame" x="143" y="254" width="107" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Editar Foto"/>
+                                <connections>
+                                    <action selector="tappededitPictureButton:" destination="egd-Hk-0Hr" eventType="touchUpInside" id="Xd4-Oa-3Ir"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xla-QA-vEZ">
+                                <rect key="frame" x="20" y="309" width="353" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdM-pp-duT">
+                                <rect key="frame" x="20" y="350" width="353" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lj-PV-7UC">
+                                <rect key="frame" x="149" y="409" width="95.333333333333314" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Adicionar"/>
+                                <connections>
+                                    <action selector="tappedaddButton:" destination="egd-Hk-0Hr" eventType="touchUpInside" id="O2N-Yz-sg0"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pnp-vz-p4e">
+                                <rect key="frame" x="0.0" y="464" width="393" height="305"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VLb-OA-9Mb"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xla-QA-vEZ" firstAttribute="leading" secondItem="VLb-OA-9Mb" secondAttribute="leading" constant="20" id="07X-8k-9Vm"/>
+                            <constraint firstItem="pnp-vz-p4e" firstAttribute="leading" secondItem="VLb-OA-9Mb" secondAttribute="leading" id="0Pb-dC-2ii"/>
+                            <constraint firstItem="9v6-b9-yN1" firstAttribute="centerX" secondItem="qQM-9L-fnM" secondAttribute="centerX" id="6Hj-Ko-QRW"/>
+                            <constraint firstItem="VLb-OA-9Mb" firstAttribute="trailing" secondItem="pnp-vz-p4e" secondAttribute="trailing" id="G77-2Y-AFl"/>
+                            <constraint firstItem="pnp-vz-p4e" firstAttribute="top" secondItem="6Lj-PV-7UC" secondAttribute="bottom" constant="20" id="Gg1-ye-PzG"/>
+                            <constraint firstItem="kdM-pp-duT" firstAttribute="top" secondItem="xla-QA-vEZ" secondAttribute="bottom" constant="20" id="LZV-gT-26n"/>
+                            <constraint firstItem="xla-QA-vEZ" firstAttribute="top" secondItem="wkx-DV-57A" secondAttribute="bottom" constant="20" id="Nbc-cv-RzJ"/>
+                            <constraint firstItem="VLb-OA-9Mb" firstAttribute="trailing" secondItem="kdM-pp-duT" secondAttribute="trailing" constant="20" id="PPJ-8l-x9g"/>
+                            <constraint firstItem="kdM-pp-duT" firstAttribute="leading" secondItem="VLb-OA-9Mb" secondAttribute="leading" constant="20" id="SWm-pO-WBo"/>
+                            <constraint firstItem="wkx-DV-57A" firstAttribute="centerX" secondItem="qQM-9L-fnM" secondAttribute="centerX" id="aCO-VV-kBp"/>
+                            <constraint firstItem="6Lj-PV-7UC" firstAttribute="top" secondItem="kdM-pp-duT" secondAttribute="bottom" constant="25" id="e8A-Hc-u1S"/>
+                            <constraint firstItem="VLb-OA-9Mb" firstAttribute="trailing" secondItem="xla-QA-vEZ" secondAttribute="trailing" constant="20" id="gE0-PJ-WQY"/>
+                            <constraint firstItem="VLb-OA-9Mb" firstAttribute="bottom" secondItem="pnp-vz-p4e" secondAttribute="bottom" id="hxg-88-eUC"/>
+                            <constraint firstItem="6Lj-PV-7UC" firstAttribute="centerX" secondItem="qQM-9L-fnM" secondAttribute="centerX" id="niM-sP-pC7"/>
+                            <constraint firstItem="wkx-DV-57A" firstAttribute="top" secondItem="9v6-b9-yN1" secondAttribute="bottom" constant="25" id="pLP-ap-GFy"/>
+                            <constraint firstItem="9v6-b9-yN1" firstAttribute="top" secondItem="VLb-OA-9Mb" secondAttribute="top" constant="35" id="q9j-7b-fyr"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="person" catalog="system" id="jqs-2r-BFR"/>
+                    <connections>
+                        <outlet property="addButton" destination="6Lj-PV-7UC" id="D8P-Vt-aeR"/>
+                        <outlet property="editPictureButton" destination="wkx-DV-57A" id="fJc-Ch-yiK"/>
+                        <outlet property="nameLabel" destination="xla-QA-vEZ" id="SdT-fh-psG"/>
+                        <outlet property="nameTextField" destination="kdM-pp-duT" id="ulD-kX-tRI"/>
+                        <outlet property="profileImageView" destination="9v6-b9-yN1" id="sm9-TZ-Zl3"/>
+                        <outlet property="tableView" destination="pnp-vz-p4e" id="9Pb-XY-RWx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AhD-q0-21D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336" y="-456"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Y9X-Xn-IvD">
+            <objects>
+                <tabBarController id="uiC-a1-eX2" customClass="TabBarController" customModule="DesafioAulaAppPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Bg-na-Ju0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="egd-Hk-0Hr" kind="relationship" relationship="viewControllers" id="ZYV-sL-QQh"/>
+                        <segue destination="V3b-r5-u4h" kind="relationship" relationship="viewControllers" id="FO9-Pu-Jz5"/>
+                        <segue destination="qag-WA-Xqs" kind="relationship" relationship="viewControllers" id="HfD-7f-70Q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tUa-IC-MKs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1242" y="-153"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="trash" catalog="system" width="117" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
